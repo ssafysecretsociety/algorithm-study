@@ -38,3 +38,45 @@ public class BOJ_2331_반복수열 {
 		System.out.println(result);
 	}
 }
+
+//public class BOJ_2331_반복수 {
+//
+//	static StringTokenizer st;
+//	static int A, P;
+//	static int result;
+//	static Map<Integer, Integer> m = new HashMap<Integer, Integer>();
+//	
+//	public static void main(String[] args) throws Exception {
+//
+//		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+//		st = new StringTokenizer(in.readLine());
+//		A = Integer.parseInt(st.nextToken());
+//		P = Integer.parseInt(st.nextToken());
+//		
+//		m.put(A, 1);
+//		
+//		int now = A;
+//		int idx = 1;
+//		
+//		while (true) {
+//			now = calc(now);
+//			if (m.containsKey(now)) {
+//				result = m.get(now);
+//				break;
+//			}
+//			m.put(now, ++idx);
+//		}
+//		System.out.println(result-1);
+//	}
+//	
+//	public static int calc(int num) {
+//		int sum = 0;
+//		while (num > 0) {
+//			int temp = (num%10);
+//			num /= 10;
+//			sum += Math.pow(temp,  P);
+//		}
+//		sum += Math.pow(num, P);
+//		return sum;
+//	}
+//}
