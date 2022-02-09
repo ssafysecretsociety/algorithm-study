@@ -1,7 +1,7 @@
 // p.312 문자열 뒤집기
 // bj 1439
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.util.Scanner;
 

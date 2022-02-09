@@ -1,6 +1,6 @@
 // p96. 숫자 카드 게임
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,6 +1,6 @@
 // p99. 1이 될 때까지
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.util.Scanner;
 

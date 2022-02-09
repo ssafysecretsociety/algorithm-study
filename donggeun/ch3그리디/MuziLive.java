@@ -1,7 +1,7 @@
 // p.316 무지의 먹방라이브
 // 프로그래머스 42891
 
-package ch3Greedy;
+package ch3그리디;
 
 public class MuziLive {
     public static void main(String[] args) {

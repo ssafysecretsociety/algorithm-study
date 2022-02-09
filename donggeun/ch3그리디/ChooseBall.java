@@ -1,6 +1,6 @@
 // p.315 볼링공 고르기
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.io.BufferedReader;
 import java.io.IOException;

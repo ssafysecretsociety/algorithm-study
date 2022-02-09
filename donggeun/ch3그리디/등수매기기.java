@@ -1,4 +1,7 @@
-package ch3Greedy;
+// 백준 2012
+// 등수 매기기
+
+package ch3그리디;
 
 import java.util.Arrays;
 import java.util.Scanner;

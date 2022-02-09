@@ -1,6 +1,6 @@
 // p.311 곱하기 혹은 더하기
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.util.Arrays;
 import java.util.Scanner;

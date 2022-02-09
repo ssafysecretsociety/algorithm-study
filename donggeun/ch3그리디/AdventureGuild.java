@@ -1,6 +1,6 @@
 // 모험가 길드
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.util.Arrays;
 import java.util.Scanner;

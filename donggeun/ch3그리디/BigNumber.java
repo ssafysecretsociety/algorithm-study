@@ -1,6 +1,6 @@
 // p92 큰 수의 법칙
 
-package ch3Greedy;
+package ch3그리디;
 
 import java.io.BufferedReader;
 import java.io.IOException;

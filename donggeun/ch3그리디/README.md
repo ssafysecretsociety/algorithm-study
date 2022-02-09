@@ -16,15 +16,15 @@
 - 페이지: [이것이 취업을 위한 코딩 테스트다] 수록 페이지
 - BJ: BAEKJOON 문제
 
-|이름|페이지|코드|
-|:---:|:---:|:---:|
-|큰 수의 법칙|92|[🚀](./BigNumber.java)|
-|숫자 카드 게임|96|[🚀](./NumberCardGame.java)|
-|1이 될 때까지|99|[🚀](./TillOne.java)|
-|모험가 길드|311|[🚀](./AdventureGuild.java)|
-|곱하기 혹은 더하기|312|[🚀](./MultiOrPlus.java)|
-|[문자열 뒤집기](https://www.acmicpc.net/problem/1439)|313|[🚀](./TurnString.java)|
-|만들 수 없는 금액|314|[🚀](./CannotMake.java)|
-|볼링공 고르기|315|[🚀](./ChooseBall.java)|
-|[무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)|316|[🚀](./MuziLive.java)|
-|[등수 매기기](https://www.acmicpc.net/problem/2012)| BJ |[🚀](./등수매기기.java)|
+|이름|페이지|코드|해결|
+|:---:|:---:|:---:|:---:|
+|큰 수의 법칙|92|[🚀](./BigNumber.java)|✅|
+|숫자 카드 게임|96|[🚀](./NumberCardGame.java)|✅|
+|1이 될 때까지|99|[🚀](./TillOne.java)|✅|
+|모험가 길드|311|[🚀](./AdventureGuild.java)|✅|
+|곱하기 혹은 더하기|312|[🚀](./MultiOrPlus.java)|✅|
+|[문자열 뒤집기](https://www.acmicpc.net/problem/1439)|313|[🚀](./TurnString.java)|✅|
+|만들 수 없는 금액|314|[🚀](./CannotMake.java)||
+|볼링공 고르기|315|[🚀](./ChooseBall.java)|✅|
+|[무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)|316|[🚀](./MuziLive.java)||
+|[등수 매기기](https://www.acmicpc.net/problem/2012)| BJ |[🚀](./등수매기기.java)|✅|
