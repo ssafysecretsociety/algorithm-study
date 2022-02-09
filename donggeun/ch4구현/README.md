@@ -39,4 +39,4 @@
 |[기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)|329|[🚀](./기둥과보설치.java)| |
 |[치킨 배달](https://www.acmicpc.net/problem/15686)|332|[🚀](./치킨배달.java)|✅|
 |[외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)|335|[🚀](./외벽점검.java)| |
-|[반복 수열](https://www.acmicpc.net/problem/2331)|BJ|[🚀](./반복수열.java)| |
+|[반복 수열](https://www.acmicpc.net/problem/2331)|BJ|[🚀](./반복수열.java)|✅|
