@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+
 public class 치킨배달 {
 
     static ArrayList<int[]> cases = new ArrayList<>();
@@ -62,7 +63,7 @@ public class 치킨배달 {
         combination(0, 0);
         int shortestCase = Integer.MAX_VALUE;
         for (int[] ints : cases) {
-            // ints = [0,1,2]
+            // ints = [0,1,2] [0,1,4]
             int total = 0;
             for (int[] house : houses) {
                 // 각 하우스에 대해서...

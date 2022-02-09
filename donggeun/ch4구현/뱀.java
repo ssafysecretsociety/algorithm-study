@@ -34,6 +34,7 @@ public class 뱀 {
         int[] times = new int[L + 1];
         char[] directions = new char[L];
 
+        // 3 D
         for (int i = 0; i < L; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             times[i] = Integer.parseInt(st.nextToken());
@@ -43,6 +44,8 @@ public class 뱀 {
 
         boolean[][] snakeMap = new boolean[N + 1][N + 1];
         Queue<int[]> snakeMove = new ArrayDeque<>();
+
+
         int curX = 1, curY = 1, tailX = 1, tailY = 1;
         int direction = 1; // right
         snakeMap[curX][curY] = true;
