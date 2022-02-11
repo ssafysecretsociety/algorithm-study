@@ -1,0 +1,59 @@
+import java.util.*;
+
+public class 음료수얼려먹기 {
+    static int[][] map;
+    static int N, M;
+    static Queue<int[]> queue = new LinkedList<>();
+
+    static int[] dx = {0, 0, 1, -1};
+    static int[] dy = {1, -1, 0, 0};
+
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+
+        N = sc.nextInt();
+        M = sc.nextInt();
+        sc.nextLine();
+        map = new int[N][M];
+
+        for (int i = 0; i < N; i++) {
+            char[] c = sc.nextLine().toCharArray();
+            for (int j = 0; j < M; j++)
+                map[i][j] = c[j] - '0';
+        }
+
+        int cnt = 0;
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[i].length; j++) {
+                if (map[i][j] == 0) {
+                    bfs(new int[]{i, j});
+                    cnt++;
+                }
+            }
+        }
+        System.out.println(cnt);
+    }
+
+    public static void bfs(int[] start) {
+        // 큐 삽입
+        queue.offer(new int[]{start[0], start[1]});
+
+        // 방문 처리
+        map[start[0]][start[1]] = 1;
+
+        while (!queue.isEmpty()) {
+            int[] q = queue.poll();
+            for (int i = 0; i < 4; i++) {
+                int nx = q[0] + dx[i];
+                int ny = q[1] + dy[i];
+
+                if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
+                if (map[nx][ny] == 1) continue;
+                queue.offer(new int[]{nx, ny});
+                map[nx][ny] = 1;
+            }
+        }
+    }
+
+}
+
