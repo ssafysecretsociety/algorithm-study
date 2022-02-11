@@ -176,5 +176,4 @@ bfs(graph, 1, visited)
 |[감시 피하기](https://www.acmicpc.net/problem/18428)|351|[🚀](./감시피하기.java)|✅|
 |[인구 이동](https://www.acmicpc.net/problem/16234)|353|[🚀](./인구이동.java)||
 |[블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)|355|[🚀](./블록이동하기.java)| |
-|[#](https://www.acmicpc.net/problem/#)|BJ|[🚀](./-.java)| |
 
