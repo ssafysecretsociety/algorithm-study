@@ -142,4 +142,4 @@ for i in range(len(count)):
 |[안테나](https://www.acmicpc.net/problem/18310)|360|[🚀](./안테나.java)|✅|
 |[실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)|361|[🚀](./실패율.java)|✅|
 |[카드 정렬하기](https://www.acmicpc.net/problem/1715)|363|[🚀](./카드정렬하기.java)|✅|
-
+|[알바생 강호](https://www.acmicpc.net/problem/1758)|BJ|[🚀](./알바생강호.java)|✅|
