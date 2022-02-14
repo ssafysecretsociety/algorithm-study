@@ -9,10 +9,16 @@
 |22/02/11|DFS/BFS|[✈️](./donggeun/ch5DFS_BFS)|[✈️](./seongyong/DFS,BFS)|[️]()
 |22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./junyoung/week2/sorting)|
 
+<br/>
+<br/>
+
 ## 🚀 Links
 
 - [팀 노션](https://geeneve.notion.site/08a5c2ee34fd40da84ef43b5358b6409)
 - [교재](http://www.yes24.com/Product/Goods/91433923)
+
+<br/>
+<br/>
 
 ## 👨‍👦‍👦 Member
 
