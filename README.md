@@ -16,10 +16,6 @@
 
 ## 👨‍👦‍👦 Member
 
-|                **🙋 [고성용](https://github.com/holmir97)**                 |               **
-🙋 [안준영](https://github.com/junyoii)**               |                 **
-🙋 [이동근](https://github.com/geeneve)**                 |
-| :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| **🙋 [고성용](https://github.com/holmir97)** | **🙋 [안준영](https://github.com/junyoii)**   | **🙋 [이동근](https://github.com/geeneve)**  |
+|:---------------------:|:---------------------:|:---------------------:|
 | [![FVCproductions](https://avatars.githubusercontent.com/u/64517473?v=4)]() | [![FVCproductions](https://avatars.githubusercontent.com/u/67837091?v=4)]() | [![FVCproductions](https://avatars.githubusercontent.com/u/68222629?v=4)]() |
-
-
