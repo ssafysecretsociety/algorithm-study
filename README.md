@@ -4,10 +4,10 @@
 
 |일시|주제|동|룡|쭌|
 |:---:|:---:|:---:|:---:|:---:|
-|22/02/07|그리디|[✈️](./donggeun/ch3그리디)|[✈️](./seongyong/greedy)|[]()|
-|22/02/09|구현|[✈️](./donggeun/ch4구현)|[✈️](./seongyong/Implementation)|[️]()|
+|22/02/07|그리디|[✈️](./donggeun/ch3그리디)|[✈️](./seongyong/greedy)|[✈️](./junyoung/week1/mon/greedy)|
+|22/02/09|구현|[✈️](./donggeun/ch4구현)|[✈️](./seongyong/Implementation)|[️✈️](./junyoung/week1/wed/implement)|
 |22/02/11|DFS/BFS|[✈️](./donggeun/ch5DFS_BFS)|[✈️](./seongyong/DFS,BFS)|[️]()
-|22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[]()|[]()|
+|22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./junyoung/week2/sorting)|
 
 ## 🚀 Links
 
