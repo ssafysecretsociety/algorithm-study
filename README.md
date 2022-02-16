@@ -8,7 +8,8 @@
 |22/02/09|구현|[✈️](./donggeun/ch4구현)|[✈️](./seongyong/Implementation)|[️✈️](./junyoung/week1/wed/implement)|
 |22/02/11|DFS/BFS|[✈️](./donggeun/ch5DFS_BFS)|[✈️](./seongyong/DFS,BFS)|[️]()
 |22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./junyoung/week2/sorting)|
-|22/02/16|이진 탐색||||
+|22/02/16|이진 탐색|[✈️](./donggeun/ch7이진탐색)|[✈️](./seongyong/BinarySearch)|[✈️]()|
+|22/02/18|IM 대비 문제 풀이|[✈️](./donggeun/IM대비)|||
 
 <br/>
 <br/>
