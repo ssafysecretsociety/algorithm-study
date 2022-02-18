@@ -75,10 +75,10 @@ public class 경비원 {
                 if (dgDir == 1) {
                     if (now.nswe == 3) {
                         // 북 서
-                        totalDist += dg.down + now.up;
+                        totalDist += dg.up + now.up;
                     } else {
                         // 북 동
-                        totalDist += dg.up + now.up;
+                        totalDist += dg.down + now.up;
                     }
 
                 } else {

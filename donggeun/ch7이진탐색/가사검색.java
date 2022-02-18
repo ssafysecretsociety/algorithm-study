@@ -15,6 +15,7 @@ public class 가사검색 {
     public static int binarySearch(String[] words, String query) {
 
         int left = Arrays.binarySearch(words, query);
+
         query = query.replace('?', 'z') + 'z';
         int right = Arrays.binarySearch(words, query);
 
