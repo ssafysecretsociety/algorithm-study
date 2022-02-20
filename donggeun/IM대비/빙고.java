@@ -66,6 +66,7 @@ public class 빙고 {
             }
         }
 
+
         // 사회자가 부르는 수를 ArrayList에 저장
         ArrayList<Integer> numList = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
