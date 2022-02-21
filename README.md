@@ -10,6 +10,7 @@
 |22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./junyoung/week2/sorting)|
 |22/02/16|이진 탐색|[✈️](./donggeun/ch7이진탐색)|[✈️](./seongyong/BinarySearch)|[✈️]()|
 |22/02/18|IM 대비 문제 풀이|[✈️](./donggeun/IM대비)|||
+|22/02/21|다이나믹 프로그래밍|[✈️](./donggeun/ch8다이나믹프로그래밍)|||
 
 <br/>
 <br/>
