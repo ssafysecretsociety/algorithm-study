@@ -51,5 +51,5 @@
 |고정점 찾기|368|[🚀](./고정점찾기.java)|✅|
 |[공유기 설치](https://www.acmicpc.net/problem/2110)|369|[🚀](./공유기설치.java)||
 |[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|370|[🚀](./가사검색.java)|효율성 1~3 실패|
-|[굴다리](https://www.acmicpc.net/problem/17266)|BJ|[🚀](./굴다리.java)||
+|[굴다리](https://www.acmicpc.net/problem/17266)|BJ|[🚀](./굴다리.java)|✅|
 

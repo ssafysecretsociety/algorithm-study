@@ -4,13 +4,15 @@
 
 |일시|주제|동|룡|쭌|
 |:---:|:---:|:---:|:---:|:---:|
-|22/02/07|그리디|[✈️](./donggeun/ch3그리디)|[✈️](./seongyong/greedy)|[✈️](./junyoung/week1/mon/greedy)|
-|22/02/09|구현|[✈️](./donggeun/ch4구현)|[✈️](./seongyong/Implementation)|[️✈️](./junyoung/week1/wed/implement)|
-|22/02/11|DFS/BFS|[✈️](./donggeun/ch5DFS_BFS)|[✈️](./seongyong/DFS,BFS)|[️]()
-|22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./junyoung/week2/sorting)|
-|22/02/16|이진 탐색|[✈️](./donggeun/ch7이진탐색)|[✈️](./seongyong/BinarySearch)|[✈️]()|
-|22/02/18|IM 대비 문제 풀이|[✈️](./donggeun/IM대비)|||
-|22/02/21|다이나믹 프로그래밍|[✈️](./donggeun/ch8다이나믹프로그래밍)|||
+|22/02/07|그리디|[✈️](./donggeun/ch3그리디)|[✈️](./seongyong/greedy)|[✈️](./tree/junyoung/junyoung/week1/mon/greedy)|
+|22/02/09|구현|[✈️](./donggeun/ch4구현)|[✈️](./seongyong/Implementation)|[️✈️](./tree/junyoung/junyoung/week1/wed/implement)|
+|22/02/11|DFS/BFS|[✈️](./donggeun/ch5DFS_BFS)|[✈️](./seongyong/DFS,BFS)||
+|22/02/14|정렬|[✈️](./donggeun/ch6정렬)|[✈️](./seongyong/Sort)|[✈️](./tree/junyoung/junyoung/week2/sorting)|
+|22/02/16|이진 탐색|[✈️](./donggeun/ch7이진탐색)|[✈️](./seongyong/BinarySearch)|[✈️](./tree/junyoung/junyoung/week2/binarysearch)|
+|22/02/18|IM 대비 문제 풀이|[✈️](./donggeun/IM대비)|[✈️](./seongyong/IM)||
+|22/02/21|다이나믹 프로그래밍|[✈️](./donggeun/ch8다이나믹프로그래밍)|[✈️](./seongyong/DynamicProgramming)||
+|22/02/23|그래프 이론|[✈️](./donggeun/ch10그래프이론)|||
+|22/02/25|최단 경로|[✈️](./donggeun/ch9최단경로)|||
 
 <br/>
 <br/>
