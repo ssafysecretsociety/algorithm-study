@@ -47,7 +47,7 @@ public class 여행계획 {
             // 하나라도 root가 다른 노드가 있다면 종료
             if (now != find(Integer.parseInt(st.nextToken()))) {
                 System.out.println("NO");
-                System.exit(0);
+                return;
             }
         }
         System.out.println("YES");
