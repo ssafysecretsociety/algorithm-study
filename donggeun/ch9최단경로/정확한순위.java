@@ -23,6 +23,7 @@ public class 정확한순위 {
             }
         }
 
+        // 단방향 그래프로 초기화
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
@@ -30,6 +31,7 @@ public class 정확한순위 {
             map[a][b] = 1;
         }
 
+        // 플로이드 워셜을 통해 도달 가능한 곳과 아닌 곳을 계산
         for (int k = 1; k <= N; k++) {
             for (int i = 1; i <= N; i++) {
                 for (int j = 1; j <= N; j++) {
@@ -38,6 +40,7 @@ public class 정확한순위 {
             }
         }
 
+        // from -> to , to -> from이 모두 INF인 경우, 순위 산출 불가
         boolean ok = true;
         int count = 0;
         for (int i = 1; i <= N; i++) {

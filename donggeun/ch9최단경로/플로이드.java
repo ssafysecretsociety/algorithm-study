@@ -28,6 +28,8 @@ public class 플로이드 {
             }
         }
 
+        // 입력 주의사항
+        // 같은 경로가 두번 들어왔다면 더 작은 값으로 초기화
         long[][] distance = new long[N + 1][N + 1];
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= N; j++) {
@@ -41,6 +43,7 @@ public class 플로이드 {
             }
         }
 
+        // int overflow를 막기 위해 long을 썼지만, 그냥 조건문으로 검사해도 될 듯
         for (int k = 1; k <= N; k++) {
             for (int i = 1; i <= N; i++) {
                 for (int j = 1; j <= N; j++) {

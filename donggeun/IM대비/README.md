@@ -18,11 +18,11 @@
 |12|[수 이어가기](https://www.acmicpc.net/problem/2635)|[🚀](./수이어가기.java)|✅|
 |13|[스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)|[🚀](./스위치켜고끄기.java)|✅|
 |14|[종이 자르기](https://www.acmicpc.net/problem/2628)|[🚀](./종이자르기.java)|✅|
-|15|[주사위 쌓기](https://www.acmicpc.net/problem/2116)|[🚀](./주사위쌓기.java)||
-|16|[창고 다각형](https://www.acmicpc.net/problem/2304)|[🚀](./창고다각형.java)||
-|17|[수열2](https://www.acmicpc.net/problem/2559)|[🚀](./수열2.java)||
-|18|[색종이2](https://www.acmicpc.net/problem/10163)|[🚀](./색종이2.java)||
-|19|[방 배정](https://www.acmicpc.net/problem/13300)|[🚀](./방배정.java)||
-|20|[딱지놀이](https://www.acmicpc.net/problem/14696)|[🚀](./딱지놀이.java)||
+|15|[주사위 쌓기](https://www.acmicpc.net/problem/2116)|[🚀](./주사위쌓기.java)|✅|
+|16|[창고 다각형](https://www.acmicpc.net/problem/2304)|[🚀](./창고다각형.java)|✅|
+|17|[수열2](https://www.acmicpc.net/problem/2559)|[🚀](./수열2.java)|✅|
+|18|[색종이2](https://www.acmicpc.net/problem/10163)|[🚀](./색종이2.java)|✅|
+|19|[방 배정](https://www.acmicpc.net/problem/13300)|[🚀](./방배정.java)|✅|
+|20|[딱지놀이](https://www.acmicpc.net/problem/14696)|[🚀](./딱지놀이.java)|✅|
 
 

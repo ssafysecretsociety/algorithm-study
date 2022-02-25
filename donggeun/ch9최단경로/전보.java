@@ -28,6 +28,7 @@ public class 전보 {
             graph[from].add(new int[]{to, weight});
         }
 
+        // 다익스트라 진행
         PriorityQueue<Nodee> pq = new PriorityQueue<>();
         int[] distance = new int[N + 1];
         for (int i = 1; i <= N; i++) {
@@ -52,7 +53,8 @@ public class 전보 {
         }
 
 
-        // 자기 자신 제외: count = -1로 초기화
+        // 다익스트라가 진행 된 후, 도달 가능한 곳의 수를 세고
+        // 가장 오래걸리는 곳 기준으로 출력
         int max = 0, count = -1;
         for (int i = 1; i <= N; i++) {
             if (distance[i] != Integer.MAX_VALUE) {

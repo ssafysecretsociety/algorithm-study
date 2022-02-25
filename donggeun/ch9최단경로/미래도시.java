@@ -31,8 +31,11 @@ public class 미래도시 {
         int X = sc.nextInt();
         int K = sc.nextInt();
 
+        // 1 -> K로 가는 최단경로와 K -> X로 가는 최단경로를 구해줌
         int first = dijkstra(1, K);
         int second = dijkstra(K, X);
+
+        // 하나라도 도달 불가능할 경우 -1 출력
         if (first == Integer.MAX_VALUE || second == Integer.MAX_VALUE) {
             System.out.println(-1);
         } else {
@@ -42,6 +45,7 @@ public class 미래도시 {
 
     }
 
+    // 인접행렬을 사용, 길이 있다면 1씩 증가시켜주는 다익스트라
     private static int dijkstra(int start, int end) {
 
         int[] distance = new int[N + 1];

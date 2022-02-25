@@ -38,6 +38,7 @@ public class 숨바꼭질 {
         pq.offer(new Node(1, 0));
         distance[1] = 0;
 
+        // 다익스트라 진행
         while (!pq.isEmpty()) {
             Node now = pq.poll();
             for (int i = 0; i < graph[now.index].size(); i++) {
@@ -50,6 +51,7 @@ public class 숨바꼭질 {
             }
         }
 
+        // 가장 먼 거리와 같은 거리인 노드의 개수를 계산
         int max = Integer.MIN_VALUE, index = -1, count = 0;
         for (int i = 1; i <= N; i++) {
             if (distance[i] > max) {

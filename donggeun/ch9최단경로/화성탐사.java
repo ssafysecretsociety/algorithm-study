@@ -48,8 +48,10 @@ public class 화성탐사 {
 
                     int nowCost = dp[now[0]][now[1]] + map[nx][ny];
 
+                    // dp 테이블에 방문한 적이 있을 때, 현재 방문 비용이 더 큰 경우라면 가지치기
                     if (dp[nx][ny] != -1 && dp[nx][ny] <= nowCost) continue;
-                    
+
+                    // 아니라면 dp table 갱신
                     dp[nx][ny] = nowCost;
                     queue.offer(new int[]{nx, ny});
                 }
