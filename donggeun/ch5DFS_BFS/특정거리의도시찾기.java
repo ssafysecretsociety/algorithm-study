@@ -8,84 +8,72 @@ import java.util.*;
 
 public class 특정거리의도시찾기 {
 
-    static ArrayList<ArrayList<Integer>> map = new ArrayList<>();
     static int N;
-    static int K;
-    static ArrayList<Integer> city;
-    static int[] distance;
-
-    public static void bfs(int start) {
-
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[]{start, 0});
-
-        while (!queue.isEmpty()) {
-            int[] now = queue.poll();
-            int nowCity = now[0];
-            int nowDist = now[1];
-
-            if (nowDist == K) {
-                // TODO: 도시 방문한 적이 없는지 확인
-                city.add(nowCity + 1);
-            } else {
-                // nowDist < K
-                ArrayList<Integer> info = map.get(nowCity);
-                for (int i = 0; i < info.size(); i++) {
-                    if (distance[info.get(i)] == -1) {
-                        distance[info.get(i)] = nowDist + 1;
-                        queue.offer(new int[]{info.get(i), nowDist + 1});
-                    }
-                }
-            }
-        }
-
-    }
-
 
     public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream("res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-
         N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-        K = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
         int X = Integer.parseInt(st.nextToken());
 
-        distance = new int[N];
-        distance[X - 1] = 0;
-
-
-        for (int i = 0; i < N; i++) {
-            distance[i] = -1;
-            map.add(new ArrayList<>());
+        List<Integer>[] map = new ArrayList[N + 1];
+        for (int i = 1; i <= N; i++) {
+            map[i] = new ArrayList<>();
         }
-
-        int start = -1;
-        int end = -1;
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            start = Integer.parseInt(st.nextToken());
-            end = Integer.parseInt(st.nextToken());
-            map.get(start - 1).add(end - 1);
+            int from = Integer.parseInt(st.nextToken());
+            int to = Integer.parseInt(st.nextToken());
+            map[from].add(to);
         }
 
-        city = new ArrayList<>();
+        List<Integer> cities = bfs(map, K, X);
+        Collections.sort(cities);
 
-        bfs(X - 1);
-
-        Collections.sort(city);
-
-        if (city.isEmpty()) {
+        if (cities.isEmpty()) {
             System.out.println(-1);
         } else {
-            for (int i : city) {
-                System.out.println(i);
+            for (int city : cities) {
+                System.out.println(city);
             }
         }
 
 
+    }
+
+    static List<Integer> bfs(List[] map, int dist, int start) {
+        boolean[] isVisited = new boolean[N + 1];
+
+        List<Integer> cities = new ArrayList<>();
+
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{start, 0});
+        while (!queue.isEmpty()) {
+            int[] now = queue.poll();
+            int from = now[0];
+            int count = now[1];
+            if (count == dist) {
+                if (!isVisited[from]) {
+                    isVisited[from] = true;
+                    cities.add(from);
+                }
+                continue;
+            } else if (count > dist) {
+                break;
+            }
+            isVisited[from] = true;
+
+            for (int i = 0; i < map[from].size(); i++) {
+                if (isVisited[(int) map[from].get(i)]) continue;
+                queue.offer(new int[]{(int) map[from].get(i), count + 1});
+            }
+        }
+
+        return cities;
     }
 }

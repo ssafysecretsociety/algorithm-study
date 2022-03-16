@@ -49,7 +49,7 @@
 |떡볶이 떡 만들기|201|[🚀](./떡볶이떡만들기.java)|✅|
 |정렬된 배열에서 특정 수의 개수 구하기|367|[🚀](./정렬된배열에서특정수의개수구하기.java)|✅|
 |고정점 찾기|368|[🚀](./고정점찾기.java)|✅|
-|[공유기 설치](https://www.acmicpc.net/problem/2110)|369|[🚀](./공유기설치.java)||
+|[공유기 설치](https://www.acmicpc.net/problem/2110)|369|[🚀](./공유기설치.java)|✅|
 |[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|370|[🚀](./가사검색.java)|효율성 1~3 실패|
 |[굴다리](https://www.acmicpc.net/problem/17266)|BJ|[🚀](./굴다리.java)|✅|
 
