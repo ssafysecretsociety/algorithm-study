@@ -11,8 +11,8 @@
 |22/02/16|이진 탐색|[✈️](./donggeun/ch7이진탐색)|[✈️](./seongyong/BinarySearch)|[✈️](./tree/junyoung/junyoung/week2/binarysearch)|
 |22/02/18|IM 대비 문제 풀이|[✈️](./donggeun/IM대비)|[✈️](./seongyong/IM)||
 |22/02/21|다이나믹 프로그래밍|[✈️](./donggeun/ch8다이나믹프로그래밍)|[✈️](./seongyong/DynamicProgramming)||
-|22/02/23|그래프 이론|[✈️](./donggeun/ch10그래프이론)|||
-|22/02/25|최단 경로|[✈️](./donggeun/ch9최단경로)|||
+|22/02/23|그래프 이론|[✈️](./donggeun/ch10그래프이론)|[✈️](./seongyong/Graph)||
+|22/02/25|최단 경로|[✈️](./donggeun/ch9최단경로)|[✈️](./seongyong/ShortestPath)||
 |~|프로그래머스 문제풀이|[✈️](./donggeun/프로그래머스)|||
 
 <br/>

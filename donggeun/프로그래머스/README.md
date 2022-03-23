@@ -8,6 +8,7 @@
 |1|[신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)|[🚀](./level1/신고결과받기.java)|✅|
 |2|[로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)|[🚀](./level1/로또의최고순위와최저순위.java)|✅|
 |3|[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|[🚀](./level1/신규아이디추천.java)|✅|
+|4|[숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)|[🚀](./level1/숫자문자열과영단어.java)|✅|
 
 ## Level 2
 |목차|이름|코드|해결|
@@ -15,6 +16,7 @@
 |1|[카카오 프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)|[🚀](./level2/카카오프렌즈컬러링북.java)|✅|
 |2|[오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[🚀](./level2/오픈채팅방.java)|✅|
 |3|[단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)|[🚀](./level2/단체사진찍기.java)|✅|
+|4|[멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)|[🚀](./level2/멀쩡한사각형.java)|✅|
 
 ## Level 3 ~
 |목차|이름|코드|해결|
@@ -46,4 +48,8 @@
 | |[중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409)|2|[🚀](./sql/중성화여부파악하기.sql)|✅|
 | |[오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411)|3|[🚀](./sql/오랜기간보호한동물2.sql)|✅|
 | |[DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414)|2|[🚀](./sql/DATETIME에서DATE로형변환.sql)|✅|
+|JOIN|[없어진 기록 찾기](https://programmers.co.kr/learn/courses/30/lessons/59042)|3|[🚀](./sql/없어진기록찾기.sql)|✅|
+| |[있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043)|3|[🚀](./sql/있었는데요없었습니다.sql)|✅|
+| |[오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044)|3|[🚀](./sql/오랜기간보호한동물1.sql)|✅|
+| |[보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045)|4|[🚀](./sql/보호소에서중성화한동물.sql)|✅|
 
