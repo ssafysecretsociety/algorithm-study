@@ -17,10 +17,12 @@
 |2|[오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[🚀](./level2/오픈채팅방.java)|✅|
 |3|[단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)|[🚀](./level2/단체사진찍기.java)|✅|
 |4|[멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)|[🚀](./level2/멀쩡한사각형.java)|✅|
+|5|[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|[🚀](./level2/메뉴리뉴얼.java)|✅|
 
 ## Level 3 ~
 |목차|이름|코드|해결|
 |:---:|:---:|:---:|:---:|
+|1|[추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)|[🚀](./level3/추석트래픽.java)|✅|
 
 ## SQL
 |카테고리|이름|레벨|코드|해결|
